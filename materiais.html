@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Materiais Gratuitos - ContaFácil</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+    body { background: #f4f7fc; padding: 40px 20px; }
+    .container { max-width: 1100px; margin: 0 auto; }
+    .header-page { text-align: center; margin-bottom: 40px; }
+    .header-page h1 { color: #0b2a4a; font-size: 34px; }
+    .header-page p { color: #555; }
+    .grid-ebook { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 30px; }
+    .ebook { background: #fff; border-radius: 12px; padding: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); text-align: center; border-bottom: 4px solid #f9a826; transition: 0.3s; }
+    .ebook:hover { box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
+    .ebook .icon { font-size: 50px; margin-bottom: 10px; }
+    .ebook h3 { color: #0b2a4a; margin-bottom: 8px; }
+    .ebook p { color: #666; font-size: 14px; margin-bottom: 15px; }
+    .btn-download { background: #0b2a4a; color: #fff; padding: 10px 25px; border-radius: 30px; text-decoration: none; font-weight: 600; font-size: 14px; display: inline-block; }
+    .btn-download:hover { background: #1a4a7a; }
+    .form-capture { background: #fff; max-width: 500px; margin: 40px auto; padding: 30px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); text-align: center; border: 1px solid #ddd; }
+    .form-capture input { width: 100%; padding: 14px; margin: 8px 0; border: 1px solid #ccc; border-radius: 8px; }
+    .form-capture button { background: #f9a826; color: #0b2a4a; border: none; padding: 14px; width: 100%; border-radius: 50px; font-weight: 700; font-size: 16px; cursor: pointer; }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="header-page">
+    <h1>📚 Biblioteca de Conhecimento Fiscal</h1>
+    <p>Baixe materiais produzidos por especialistas e fique à frente da fiscalização.</p>
+  </div>
+
+  <div class="grid-ebook">
+    <div class="ebook">
+      <div class="icon">📘</div>
+      <h3>Guia da EFD-Reinf</h3>
+      <p>Passo a passo para evitar multas e erros no envio das informações.</p>
+      <a href="#" class="btn-download">Baixar agora</a>
+    </div>
+    <div class="ebook">
+      <div class="icon">📊</div>
+      <h3>Planilha de Provisões</h3>
+      <p>Modelo em Excel para calcular IRPJ e CSLL com base no Lucro Real.</p>
+      <a href="#" class="btn-download">Baixar agora</a>
+    </div>
+    <div class="ebook">
+      <div class="icon">📅</div>
+      <h3>Calendário Trabalhista 2026</h3>
+      <p>Férias, 13º e FGTS: todas as datas que o RH precisa controlar.</p>
+      <a href="#" class="btn-download">Baixar agora</a>
+    </div>
+  </div>
+
+  <!-- Captura de Lead -->
+  <div class="form-capture">
+    <h2 style="color: #0b2a4a;">Quer receber materiais exclusivos toda semana?</h2>
+    <p style="color: #666; margin-bottom: 15px;">Cadastre seu e-mail e tenha acesso a conteúdos premium antes de todo mundo.</p>
+    <input type="text" placeholder="Seu nome completo">
+    <input type="email" placeholder="Seu melhor e-mail">
+    <button>Quero me cadastrar 🚀</button>
+  </div>
+</div>
+</body>
+</html>
